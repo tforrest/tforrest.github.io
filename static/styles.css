@@ -1,13 +1,40 @@
 body {
-	background: url("./images/AMountainCool.JPG") no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+    background: url("./images/AMountainCool.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .text {
-        font-family: 'Open Sans', sans-serif;
-        text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+a:link {
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #2C3E50;
+}
+
+a:active {
+    color: #FFFFFF;
+}
+
+a.no-underline {
+    text-decoration: none; 
+}
+
+.footer-tag {
+    font-family: 'Open Sans', sans-serif;
+    position: fixed, center;
+    bottom:0;
 }
 
